@@ -2,3 +2,14 @@ Describe function can also be used for object datatype
 ex.- df.describe(include='object')
 
 Industry Level Analysis code (given in notebook)
+
+Use and various parameters of XGBoost model in Machine Learning
+and Hyperparameter tuning with 'RandomizedSearchCV' 
+
+RandomizedSearchCV vs GridSearchCV, RandomizedSearchCV gives more options to play with
+
+@st.cache_resource -> this loads the model only one time not everytime user clicks predict or something
+
+using category = st.selectbox('Category', label_encoders['Category'].classes_.tolist())
+instead category = st.selectbox('Category', df['Category'].unique())
+The 2nd method needs dataset, while the 1st method reads the unique value from the saved encoder no need df to run
