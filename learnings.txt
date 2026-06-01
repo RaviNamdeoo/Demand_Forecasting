@@ -1,0 +1,4 @@
+Describe function can also be used for object datatype
+ex.- df.describe(include='object')
+
+Industry Level Analysis code (given in notebook)
